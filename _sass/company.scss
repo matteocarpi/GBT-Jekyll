@@ -1,0 +1,77 @@
+/*The Company*/
+
+/*Colours*/
+$gyellow: #FADD8B;
+$gblue: #1A3557;
+$gred: #B25B48;
+
+.bio {
+  background-color: $gyellow;
+}
+
+.band {
+  min-height: 5em;
+}
+.red.band {
+  background-color: $gred;
+  margin-top: 10em;
+}
+
+.company-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -10em;
+}
+.the-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $gyellow;
+  position: relative;
+  top: -12em;
+  width: 40%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.blue.band {
+  background-color: $gblue;
+}
+
+.title-people {
+    margin-bottom: 20em;
+    text-align: center;
+}
+
+.row-people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  top: -18.78em;
+  position: relative;
+  padding: 0 20em 0 20em;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: top;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  text-align: justify;
+  margin: 0 2em;
+}
+
+.avatar {
+  width: 300px;
+}
+
+
+h3.person {
+  margin: 1em 0;
+  text-align: center;
+  width: auto;
+}

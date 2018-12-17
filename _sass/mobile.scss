@@ -1,0 +1,66 @@
+/* Smartphone */
+
+@media screen and (max-width:426px) {
+  .logo {
+    max-width: 20em;
+  }
+  .navigation {
+    max-width: 400px;
+  }
+  .menu-item {
+    font-size: 0.7em;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+  .column-half {
+    width: 100%;
+  }
+  .left-lip::before, .right-lip::before {
+    display: none;
+  }
+  .portfolio-item.right {
+    flex-direction: column;
+  }
+  .portfolio-item.left {
+    flex-direction: column-reverse;
+  }
+  img.portfolio-photo {
+    width:100%;
+  }
+  .nature-honour-wrapper {
+    flex-direction: column;
+  }
+  p {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    align-items: center;
+  }
+}
+
+/* Small Laptop */
+@media screen and (max-width: 1025px) {
+  .row-people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .blue.band {
+    display: none;
+  }
+
+  .left-lip::before, .right-lip::before{
+    display: none;
+  }
+}
