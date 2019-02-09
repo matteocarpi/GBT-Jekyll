@@ -28,7 +28,7 @@ layout: default
     <div class="portfolio-item left">
       <div class="column-half portfolio-text left-lip">
         <h2>Who’s at the door, we can’t be sure</h2>
-          <p class="yellow"> {{ page.cats | markdownify }} </p>
+          <p class="yellow"> {{ page.cats }} </p>
       </div>
 
       <div class="column-half cats-photo">
@@ -45,8 +45,7 @@ layout: default
         <div class="column-half portfolio-text right-lip">
           <h2>Barbados</h2>
             <p class="yellow">
-              A box, placed in the centre, acting as a pedestal for the brightly lit cookie. It is an empty space, apart from Jonny and Robert, one following the other, and both showing “rattish” behaviour. They are arguing about their differences,
-              and frustrated by their dependencies. They appear to be lost, moving forwards, as invisible forces disrupt their journey. It is a story of conformity, brotherhood, desperation and manipulation.
+              {{ page.barbados }}
             </p>
         </div>
       </div>
@@ -55,7 +54,7 @@ layout: default
     <div class="nature-honour-wrapper">
       <div class="nature-honour-text">
         <h2>In Nature's Honour</h2>
-        <p class="nature-text yellow">A surreal journey of when man meets an android, a bath, and a fish. Through a simple effort to honour the natural world, his reality begins to warp as if his attempt to pay tribute backfires.</p>
+        <p class="nature-text yellow">{{ page.nature_honour }}</p>
       </div>
 
       <div class="nature-honour-photos">
