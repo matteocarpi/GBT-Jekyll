@@ -11,8 +11,11 @@ fields:
   name: venue
   label: Venue
 - type: datetime
-  name: date
-  label: Date
+  name: first-date
+  label: First Show Date
+- type: datetime
+  name: last-date
+  label: Last Show Date
 - type: text
   name: link
   label: Link
