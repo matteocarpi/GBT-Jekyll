@@ -33,7 +33,7 @@ layout: default
       </div>
         <div class="tour-wrapper">
           <ul class="tour">
-            {% for items in page.tour %}
+            {% for item in page.tour %}
               {% if item.first-date == item.last-date %}
                 <li>{{ item.first-date | date_to_long_string }} - <a href="{{ item.link }}" target="_blank">{{ item.venue }}</a> - <strong>{{ item.city }}, {{ item.coutry }}</strong></li>
               {% endif %}
