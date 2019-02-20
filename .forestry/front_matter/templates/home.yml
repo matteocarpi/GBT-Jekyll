@@ -8,13 +8,17 @@ fields:
   type: text
   hidden: true
   default: home
-- name: about
+- type: textarea
+  name: about
   label: About
-  type: textarea
-  hidden: false
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
   default: ''
 - type: blocks
   name: tour
   label: Tour
   template_types:
   - tour-date
+- type: textarea
