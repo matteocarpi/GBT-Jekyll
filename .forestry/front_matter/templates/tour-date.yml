@@ -5,8 +5,11 @@ is_partial: true
 display_field: place
 fields:
 - type: text
-  label: Place
-  name: place
+  label: City
+  name: city
+- type: text
+  name: country
+  label: Country
 - type: text
   name: venue
   label: Venue
