@@ -13,3 +13,8 @@ fields:
   type: textarea
   hidden: false
   default: ''
+- type: blocks
+  name: tour
+  label: Tour
+  template_types:
+  - tour-date
