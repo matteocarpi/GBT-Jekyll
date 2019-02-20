@@ -21,6 +21,5 @@ fields:
   label: Tour
   template_types:
   - tour-date
-- type: textarea
 pages:
 - index.md
