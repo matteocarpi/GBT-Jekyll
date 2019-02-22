@@ -21,7 +21,7 @@ tour:
   venue: Tifa Working Studios
   link: http://tifa.edu.in/
   first-date: 2019-01-19 18:30:00 +0000
-  last-date: 2019-01-19 18:30:00 +0000
+  last-date: ''
 - template: tour-date
   city: Bangalore
   country: India
@@ -37,5 +37,16 @@ tour:
   last-date: 2019-02-08 18:30:00 +0000
   link: http://www.padatik.co.in
   past: true
+- template: tour-date
+  city: Agra
+  country: India
+  venue: UP 80
+  first-date: 2019-02-23 18:30:00 +0000
+  link: https://www.whilstwalkingtour.com/tour
+  past: false
+- template: tour-date
+- template: tour-date
+- template: tour-date
+- template: tour-date
 
 ---
