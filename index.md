@@ -29,5 +29,13 @@ tour:
   first-date: 2019-01-26 18:30:00 +0000
   link: https://www.facebook.com/Untitledartsfoundation/?eid=ARCY6TP6n8IXP1XHeYfEt--ivNM3qshZbkksDEvAQIaS4aHhXh3Al0bOai1o-X2hI7AtuhMlB7weqZU_
   past: true
+- template: tour-date
+  city: Kolkata
+  country: India
+  venue: Padatik
+  first-date: 2019-01-07 18:30:00 +0000
+  last-date: 2019-02-08 18:30:00 +0000
+  link: http://www.padatik.co.in
+  past: true
 
 ---
