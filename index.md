@@ -55,6 +55,11 @@ tour:
   first-date: 2019-02-28 18:30:00 +0000
   link: https://in.bookmyshow.com/plays/whilst-walking-showcase/ET00091236
 - template: tour-date
+  city: Brighton
+  country: UK
+  venue: Fringe Festival
+  first-date: 2019-05-05 18:30:00 +0000
+  last-date: 2019-05-11 18:30:00 +0000
 - template: tour-date
 
 ---
