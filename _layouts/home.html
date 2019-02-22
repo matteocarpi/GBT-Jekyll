@@ -47,7 +47,7 @@ layout: default
                     {% when '3' or '23' %}{{ day }}rd
                     {% else %}{{ day }}th
                   {% endcase %}
-                  {{ item.first-date | date: "of %B, %Y" }}<data value=""></data> - <a href="{{ item.link }}" target="_blank">{{ item.venue }}</a> - <strong>{{ item.city }}, {{ item.coutry }}</strong></li>
+                  {{ item.first-date | date: "of %B, %Y" }}<data value=""></data> - <a href="{{ item.link }}" target="_blank">{{ item.venue }}</a> - <strong>{{ item.city }}, {{ item.country }}</strong></li>
 
                 {% else %}
 
