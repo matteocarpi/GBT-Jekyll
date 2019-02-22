@@ -12,6 +12,5 @@ tour:
   first-date: 2018-12-09 18:30:00 +0000
   last-date: 2018-12-09 18:30:00 +0000
   link: http://www.ada-studio.de/
-undefined: ''
-
+  past: true
 ---
