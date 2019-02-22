@@ -6,7 +6,6 @@ about: |-
   We are an international troupe, based in Berlin.
 tour:
 - template: tour-date
-  place: Berlin, Germany
   city: Berlin
   country: Germany
   venue: Ada Studio
