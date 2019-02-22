@@ -25,4 +25,4 @@ fields:
 - type: boolean
   name: past
   label: Past
-  default: true
+  default: false
