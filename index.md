@@ -45,6 +45,9 @@ tour:
   link: https://www.whilstwalkingtour.com/tour
   past: false
 - template: tour-date
+  city: Delhi
+  country: India
+  first-date: 2019-02-24 18:30:00 +0000
 - template: tour-date
 - template: tour-date
 - template: tour-date
