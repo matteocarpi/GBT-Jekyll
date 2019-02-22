@@ -37,47 +37,40 @@ layout: default
 
 
             {% for item in page.tour %}
-              {% if item.first-date == item.last-date %}
+              {% if item.last-date %}
 
 
-                <li {% if item.past == true %} style="color: #aa5d64;" {% endif %}> {% assign day = item.first-date | date: "%-d" %}
-                  {% case day %}
-                    {% when '1' or '21' or '31' %}{{ day }}st
-                    {% when '2' or '22' %}{{ day }}nd
-                    {% when '3' or '23' %}{{ day }}rd
-                    {% else %}{{ day }}th
-                  {% endcase %}
-                  {{ item.first-date | date: "of %B, %Y" }}<data value=""></data> - <a href="{{ item.link }}" target="_blank">{{ item.venue }}</a> - <strong>{{ item.city }}, {{ item.country }}</strong></li>
+              <li {% if item.past == true %} style="color: #a58e91;" {% endif %}> {% assign day = item.first-date | date: "%-d" %}
+              {% case day %}
+                {% when '1' or '21' or '31' %}{{ day }}st
+                {% when '2' or '22' %}{{ day }}nd
+                {% when '3' or '23' %}{{ day }}rd
+                {% else %}{{ day }}th
+              {% endcase %}
+              -
+              {% assign day = item.last-date | date: "%-d" %}
+                {% case day %}
+                  {% when '1' or '21' or '31' %}{{ day }}st
+                  {% when '2' or '22' %}{{ day }}nd
+                  {% when '3' or '23' %}{{ day }}rd
+                  {% else %}{{ day }}th
+                {% endcase %}
+              {{ item.first-date | date: "of %B, %Y" }}<data value=""></data> - <a style="font-style: italic;" href="{{ item.link }}" target="_blank">{{ item.venue }}</a> {% if item.venue %} - {% endif %} <strong>{{ item.city }}, {{ item.country }}</strong></li>
+
 
                 {% else %}
 
-                <li {% if past == true %} style="color: #aa5d64;" {% endif %}> {% assign day = item.first-date | date: "%-d" %}
+                <li {% if item.past == true %} style="color: #a58e91;" {% endif %}> {% assign day = item.first-date | date: "%-d" %}
                   {% case day %}
                     {% when '1' or '21' or '31' %}{{ day }}st
                     {% when '2' or '22' %}{{ day }}nd
                     {% when '3' or '23' %}{{ day }}rd
                     {% else %}{{ day }}th
                   {% endcase %}
-                  -
-                  {% assign day = item.last-date | date: "%-d" %}
-                    {% case day %}
-                      {% when '1' or '21' or '31' %}{{ day }}st
-                      {% when '2' or '22' %}{{ day }}nd
-                      {% when '3' or '23' %}{{ day }}rd
-                      {% else %}{{ day }}th
-                    {% endcase %}
-                  {{ item.first-date | date: "of %B, %Y" }}<data value=""></data> - <a href="{{ item.link }}" target="_blank">{{ item.venue }}</a> - <strong>{{ item.city }}, {{ item.coutry }}</strong></li>
+                  {{ item.first-date | date: "of %B, %Y" }}<data value=""></data> - <a style="font-style: italic;" href="{{ item.link }}" target="_blank">{{ item.venue }}</a> {% if item.venue %} - {% endif %}<strong>{{ item.city }}, {{ item.country }}</strong></li>
 
               {% endif %}
             {% endfor%}
-              <li>20 January 2019 - "Sudarshan/ Artsfactor" - <strong>Pune India</strong></li>
-              <li>27th January 2019- "United Arts Foundation" - <strong>Bangalore, India</strong></li>
-              <li>17th February 2019 - "Padatik Venue" - <strong>Kolkata, India</strong></li>
-              <li>24th February 2019 - "UP 80 Residency" - <strong>Agra, India</strong></li>
-              <li>25th February 2019  - <strong>Delhi, India</strong></li>
-              <li>1st March 2019  - "Castiko" - <strong>Mumbai, India</strong></li>
-              <li>6th-12th May 2019 - <strong>Brighton Fringe Festival</strong></li>
-              <li>2nd-26th August 2019 - <strong>Edinburgh Fringe Festival</strong></li>
           </ul>
         </div>
     </div>
