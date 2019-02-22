@@ -10,7 +10,7 @@ tour:
   city: Berlin
   country: Germany
   venue: Ada Studio
-  first-date: 2018-12-09 18:30:00 +0000
+  first-date: 2018-12-10 00:10:00 +0100
   last-date: ''
   link: http://www.ada-studio.de/
   past: true
