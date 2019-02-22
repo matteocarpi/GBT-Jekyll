@@ -40,7 +40,7 @@ layout: default
               {% if item.first-date == item.last-date %}
 
 
-                <li> {% assign day = item.first-date | date: "%-d" %}
+                <li {% if item.past == true %} style="color: #aa5d64;" {% endif %}> {% assign day = item.first-date | date: "%-d" %}
                   {% case day %}
                     {% when '1' or '21' or '31' %}{{ day }}st
                     {% when '2' or '22' %}{{ day }}nd
@@ -51,7 +51,7 @@ layout: default
 
                 {% else %}
 
-                <li> {% assign day = item.first-date | date: "%-d" %}
+                <li {% if past == true %} style="color: #aa5d64;" {% endif %}> {% assign day = item.first-date | date: "%-d" %}
                   {% case day %}
                     {% when '1' or '21' or '31' %}{{ day }}st
                     {% when '2' or '22' %}{{ day }}nd
