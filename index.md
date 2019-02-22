@@ -33,7 +33,7 @@ tour:
   city: Kolkata
   country: India
   venue: Padatik
-  first-date: 2019-01-07 18:30:00 +0000
+  first-date: 2019-02-07 18:30:00 +0000
   last-date: 2019-02-08 18:30:00 +0000
   link: http://www.padatik.co.in
   past: true
