@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 about: |-
   Gut Buddies is a physical theatre company specialising in absurdist comedy.
 
