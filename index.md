@@ -61,5 +61,10 @@ tour:
   first-date: 2019-05-05 18:30:00 +0000
   last-date: 2019-05-11 18:30:00 +0000
 - template: tour-date
+  city: Edinburgh
+  country: UK
+  first-date: 2019-08-01 18:30:00 +0000
+  last-date: 2019-08-25 18:30:00 +0000
+  venue: Fringe Festival
 
 ---
