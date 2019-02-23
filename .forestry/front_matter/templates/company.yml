@@ -1,0 +1,19 @@
+---
+label: Company
+hide_body: false
+is_partial: false
+fields:
+- type: textarea
+  name: company_bio
+  label: Company Bio
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: blocks
+  name: people
+  label: People
+  template_types:
+  - person
+pages:
+- company.md
