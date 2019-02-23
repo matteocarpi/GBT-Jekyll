@@ -4,16 +4,17 @@ layout: default
     <div class="red band">
     </div>
     <div class="company-wrapper">
+
       <div class="the-company">
+
         <div class="title">
           <h1>The Company</h1>
         </div>
 
-        <p class="bio">We came across each other during our master’s course in Devising Theatre and Performance at <strong>LISPA Berlin</strong>, in collaboration with <strong>Rose Bruford College London</strong>. We are a group of interdisciplinary artists who collaborate without the reliance on particular hierarchies.
-          <br><br>We create devised performances using a minimal aesthetic, and an artistic language that is malleable and accommodating to our visiting collaborators.
-          <br><br>We want to provoke a theatrical experience that explores how the creation of work can inform, influence, and be affected by the social environment. By using long periods of research and rehearsal, we create theatre that alludes to the rebuilding of a sense of <strong>community</strong> in contemporary society.
-          <br><br>Our first collaborator was a fish from LIDL.
+        <p class="bio">
+          {{ page.company_bio | markdownify}}
         </p>
+
       </div>
     </div>
 
@@ -26,8 +27,6 @@ layout: default
       <div class="blue band">
       </div>
 
-
-
       <div class="row-people">
 
         {% for item in page.people %}
@@ -39,41 +38,6 @@ layout: default
           </div>
 
         {% endfor %}
-        <!-- <div class="person">
-          <img class="avatar" src="/assets/company/matteo.png" alt="">
-          <h3 class="person">Matteo Carpi</h3>
-          <p>As an Italian person from Italy he loves cooking Italian food. But thinks nobody realises that he can’t cook anything else but Italian food. In his spare time, he makes cheese porn, which is particularly tasteless, making him a respectable member of the community. </p>
-        </div>
 
-        <div class="person">
-          <img class="avatar" class="avatar" src="/assets/company/ainhoa.png" alt="">
-          <h3 class="person">Ainhoa Hevia Uria</h3>
-          <p>She is famous amongst friends for having an equally as large mouth as Niall. She is the only Spanish person to have a fake Spanish accent. She says she’s always cold, but we actually think she just loves the feeling of being hugged, all the time, by clothes.</p>
-        </div>
-
-        <div class="person">
-          <img class="avatar" src="/assets/company/niall.png" alt="">
-            <h3 class="person">Niall Fallon</h3>
-            <p>If you have a question, just ask Niall. He probably wont know the answer, but he will tell you anyway.
-              He easily looses his patience when people try to boycott his partying plans proposing karaoke nights.
-            </p>
-        </div> -->
       </div>
-
-<!--Waiting to confirm Berta
-      <div class="blue band">
-      </div>
-
-      <div class="row people">
-
-
-        <div class="person berta">
-          <img class="avatar" src="assets/company/berta.png" alt="">
-            <h3 class="person">Berta del Ben</h3>
-            <p>If you have a question, just ask Niall. He probably wont know the answer, but he will tell you anyway.
-              He easily looses his patience when people try to boicot his partying plans proposing karaoke nights.
-            </p>
-        </div>
-      </div>
--->
     </div>

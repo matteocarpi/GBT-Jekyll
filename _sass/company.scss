@@ -30,7 +30,7 @@ $gred: #B25B48;
   background-color: $gyellow;
   position: relative;
   top: -12em;
-  width: 40%;
+  max-width: 872px;
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -47,11 +47,13 @@ $gred: #B25B48;
 .row-people {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: flex-start;
   top: -18.78em;
   position: relative;
-  padding: 0 20em 0 20em;
+  max-width: 1500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .person {
