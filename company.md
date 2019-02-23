@@ -21,6 +21,12 @@ people:
     he makes cheese porn, which is particularly tasteless, making him a respectable
     member of the community.
 - template: person
+  avatar: "/uploads/ainhoa.jpg"
+  name: Ainhoa Hevia Uria
+  bio: She is famous amongst friends for having an equally as large mouth as Niall.
+    She is the only Spanish person to have a fake Spanish accent. She says she’s always
+    cold, but we actually think she just loves the feeling of being hugged, all the
+    time, by clothes.
 - template: person
 
 ---
