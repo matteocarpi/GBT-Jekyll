@@ -26,18 +26,20 @@ layout: default
       <div class="blue band">
       </div>
 
-      <!-- {% for item in page.people %}
 
-        <div class="person">
-          <img class="avatar" src="{{ item.avatar }}" alt="">
-          <h3 class="person">{{ item.name }}</h3>
-          <p>{{ item.bio }}</p>
-        </div>
 
-      {% endfor %}
-       -->
       <div class="row-people">
-        <div class="person">
+
+        {% for item in page.people %}
+
+          <div class="person">
+            <img class="avatar" src="{{ item.avatar }}" alt="">
+            <h3 class="person">{{ item.name }}</h3>
+            <p>{{ item.bio }}</p>
+          </div>
+
+        {% endfor %}
+        <!-- <div class="person">
           <img class="avatar" src="/assets/company/matteo.png" alt="">
           <h3 class="person">Matteo Carpi</h3>
           <p>As an Italian person from Italy he loves cooking Italian food. But thinks nobody realises that he can’t cook anything else but Italian food. In his spare time, he makes cheese porn, which is particularly tasteless, making him a respectable member of the community. </p>
@@ -55,7 +57,7 @@ layout: default
             <p>If you have a question, just ask Niall. He probably wont know the answer, but he will tell you anyway.
               He easily looses his patience when people try to boycott his partying plans proposing karaoke nights.
             </p>
-        </div>
+        </div> -->
       </div>
 
 <!--Waiting to confirm Berta
