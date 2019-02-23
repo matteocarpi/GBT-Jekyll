@@ -28,5 +28,10 @@ people:
     cold, but we actually think she just loves the feeling of being hugged, all the
     time, by clothes.
 - template: person
+  avatar: "/uploads/niall.jpg"
+  name: Niall Machin
+  bio: If you have a question, just ask Niall. He probably wont know the answer, but
+    he will tell you anyway. He easily looses his patience when people try to boycott
+    his partying plans proposing karaoke nights.
 
 ---
