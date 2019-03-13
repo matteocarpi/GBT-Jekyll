@@ -30,10 +30,14 @@ body {
 strong {
   font-family: Campton-Bold, Helvetica, sans-serif;
 }
-a, a:hover{
+a, a:hover {
   font-family: Campton-Book, Helvetica, sans-serif;
-  text-decoration: underline;
   color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: 900;
 }
 
 p {
@@ -71,40 +75,6 @@ li {
 
 line {
   color: #1A3557;
-}
-
-a.nav-link {
-  text-decoration: none;
-  font-family: Campton, Helvetica, sans-serif;
-  color: $gblue;
-}
-
-a.nav-link:hover{
-  text-decoration: underline;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: $gblue !important;
-  font-weight: bold;
-  margin: 0 2em;
-}
-
-.navbar-light .navbar-toggler {
-    color: #1A3557;
-    border: yellow;
-}
-
-.bg-light {
-    background-color: #FADD8B !important;
-    margin-top: 1.5em;
-    text-align: center;
-}
-
-ul.navbar-nav mr-auto {
-  display:flex;
-  justify-content: space-around!important;
-  margin:0;
-  padding:0;
 }
 /*Header*/
 
