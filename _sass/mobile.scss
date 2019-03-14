@@ -10,10 +10,6 @@
   .menu-item {
     font-size: 0.7em;
   }
-  .header {
-    display: flex;
-    flex-direction: column;
-  }
   .footer {
     flex-direction: column;
   }
@@ -48,12 +44,25 @@
   body {
     align-items: center;
   }
+  #navigation-large {
+    display: none;
+  }
+  .header-center {
+    min-height: 100px;
+    padding: 0;
+  }
+  img.logo {
+    margin: auto;
+  }
 }
-
 /* Small Laptop */
 @media screen and (max-width: 1025px) {
-
   .left-lip::before, .right-lip::before{
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  #mobile-menu {
     display: none;
   }
 }

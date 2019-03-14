@@ -30,14 +30,10 @@ body {
 strong {
   font-family: Campton-Bold, Helvetica, sans-serif;
 }
-a, a:hover {
+a {
   font-family: Campton-Book, Helvetica, sans-serif;
   color: inherit;
   text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-  font-weight: 900;
 }
 
 p {
@@ -103,10 +99,6 @@ line {
   text-decoration: none;
   color: #1A3557;
   font-size: 1em;
-}
-
-.menu-item + .menu-item {
-  margin-left: 6em;
 }
 .fab.blue {
   font-size: 1.3em;
