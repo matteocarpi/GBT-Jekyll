@@ -33,5 +33,6 @@ people:
   bio: If you have a question, just ask Niall. He probably wont know the answer, but
     he will tell you anyway. He easily looses his patience when people try to boycott
     his partying plans proposing karaoke nights.
+company_picture: "/uploads/ORG_DSC06096.JPG"
 
 ---
