@@ -2,6 +2,9 @@
 label: Company
 hide_body: false
 fields:
+- type: file
+  name: company_picture
+  label: Company Picture
 - type: textarea
   name: company_bio
   label: Company Bio
