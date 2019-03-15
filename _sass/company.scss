@@ -5,6 +5,13 @@ $gyellow: #FADD8B;
 $gblue: #1A3557;
 $gred: #B25B48;
 
+.company_picture {
+    width: 100%;
+    padding-top: 60vh;
+    background-position: bottom 30% right 50% !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
 .bio {
   background-color: $gyellow;
 }
