@@ -10,7 +10,7 @@ tour:
   city: Berlin
   country: Germany
   venue: Ada Studio
-  first-date: 2018-12-10 00:10:00 +0100
+  first-date: 2018-12-09 23:10:00 +0000
   last-date: ''
   link: http://www.ada-studio.de/
   past: true
@@ -43,7 +43,7 @@ tour:
   venue: UP 80
   first-date: 2019-02-23 18:30:00 +0000
   link: https://www.whilstwalkingtour.com/tour
-  past: false
+  past: true
 - template: tour-date
   city: Delhi
   country: India
