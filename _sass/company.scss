@@ -21,10 +21,13 @@ $gred: #B25B48;
 }
 .red.band {
   background-color: $gred;
-  margin-top: 10em;
+  position: absolute;
+  top: 43.8rem;
+  width: 100%;
 }
 
 .company-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +39,6 @@ $gred: #B25B48;
   align-items: center;
   background-color: $gyellow;
   position: relative;
-  top: -12em;
   max-width: 872px;
   padding-left: 2em;
   padding-right: 2em;
