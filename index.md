@@ -48,12 +48,14 @@ tour:
   city: Delhi
   country: India
   first-date: 2019-02-24 18:30:00 +0000
+  past: true
 - template: tour-date
   city: Mumbai
   country: India
   venue: Castiko
   first-date: 2019-02-28 18:30:00 +0000
   link: https://in.bookmyshow.com/plays/whilst-walking-showcase/ET00091236
+  past: true
 - template: tour-date
   city: Brighton
   country: UK
