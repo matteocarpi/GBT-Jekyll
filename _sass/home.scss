@@ -42,6 +42,7 @@ p.about {
 .projects-link, .projects-link:hover {
   text-decoration: none;
 }
+
 .gbprojects {
     background-color: #B25B48;
     display: flex;
@@ -54,6 +55,12 @@ p.about {
   border: #FADD8B;
   border-style: solid;
   padding: 2em 3em;
+}
+.gbprojects-container:hover {
+    background-color: #FADD8B;
+    h2 {
+      color: $gred;
+    }
 }
 
 .tour-wrapper {
