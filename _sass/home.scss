@@ -64,6 +64,7 @@ p.about {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 2rem;
 }
 .tour-right, .tour-left {
   display: flex;
@@ -84,6 +85,9 @@ ul.tour {
   padding: 0;
   line-height: 2em;
   width: 100%;
+  li {
+    padding: 0.5rem 0;
+  }
 }
 
 .contact {
