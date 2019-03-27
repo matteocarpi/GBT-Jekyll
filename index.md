@@ -1,10 +1,8 @@
 ---
 layout: home
 title: Home
-about: |-
-  Gut Buddies is a physical theatre company specialising in absurdist comedy.
-
-  We are an international troupe, based in Berlin.
+about: Gut Buddies is an international physical theatre company specialising in absurdist
+  comedy..
 tour:
 - template: tour-date
   city: Berlin
