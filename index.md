@@ -58,7 +58,7 @@ tour:
   city: Brighton
   country: UK
   venue: Brighton Fringe Festival
-  first-date: 2019-05-06 16:30:00 +0200
+  first-date: 2019-05-06 14:30:00 +0000
   last-date: 2019-05-12 16:30:00 +0200
 - template: tour-date
   city: Edinburgh
