@@ -1,10 +1,8 @@
 ---
 layout: home
 title: Home
-about: |-
-  Gut Buddies is a physical theatre company specialising in absurdist comedy.
-
-  We are an international troupe, based in Berlin.
+about: Gut Buddies is an international physical theatre company specialising in absurdist
+  comedy..
 tour:
 - template: tour-date
   city: Berlin
@@ -60,8 +58,8 @@ tour:
   city: Brighton
   country: UK
   venue: Brighton Fringe Festival
-  first-date: 2019-05-05 18:30:00 +0000
-  last-date: 2019-05-11 18:30:00 +0000
+  first-date: 2019-05-06 16:30:00 +0200
+  last-date: 2019-05-12 16:30:00 +0200
 - template: tour-date
   city: Edinburgh
   country: UK
