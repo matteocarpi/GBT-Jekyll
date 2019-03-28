@@ -18,7 +18,7 @@ email: matteo@gutbuddiestheatre.com
 description: An international Physical Theatre Company based in Berlin
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.gutbuddiestheatre.com" # the base hostname & protocol for your site, e.g. http://example.com
-timezone: +0100
+timezone: Europe/Berlin
 twitter_username: jekyllrb
 github_username:  jekyll
 
