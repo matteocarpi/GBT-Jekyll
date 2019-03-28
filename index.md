@@ -63,8 +63,8 @@ tour:
 - template: tour-date
   city: Edinburgh
   country: UK
-  first-date: 2019-08-02 20:30:00 +0200
-  last-date: 2019-08-26 20:30:00 +0200
+  first-date: 2019-08-13 20:30:00 +0200
+  last-date: 2019-08-28 20:30:00 +0200
   venue: Edinburgh Fringe Festival
 
 ---
