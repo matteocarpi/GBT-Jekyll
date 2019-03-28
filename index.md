@@ -60,6 +60,7 @@ tour:
   venue: Brighton Fringe Festival
   first-date: 2019-05-06 14:30:00 +0000
   last-date: 2019-05-12 14:30:00 +0000
+  link: https://www.brightonfringe.org/whats-on/gut-buddies-135880/
 - template: tour-date
   city: Edinburgh
   country: UK
