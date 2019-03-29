@@ -72,14 +72,28 @@ li {
 line {
   color: #1A3557;
 }
-
+a.cta {
+  margin-top: 2rem;
+}
 a.cta.yellow {
   background-color: $gyellow;
   color: $gred;
+  border: solid 1px $gyellow;
 }
 a.cta.red {
   background-color: $gred;
   color: $gyellow;
+  border: solid 1px $gred;
+}
+a.cta.red:hover {
+  background-color: $gyellow;
+  color: $gred;
+  border: solid 1px $gred;
+}
+a.cta.yellow:hover {
+  background-color: $gred;
+  color: $gyellow;
+  border: solid 1px $gyellow;
 }
 /*Header*/
 
