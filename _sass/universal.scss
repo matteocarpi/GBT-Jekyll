@@ -72,6 +72,15 @@ li {
 line {
   color: #1A3557;
 }
+
+a.cta.yellow {
+  background-color: $gyellow;
+  color: $gred;
+}
+a.cta.red {
+  background-color: $gred;
+  color: $gyellow;
+}
 /*Header*/
 
 .header-center{

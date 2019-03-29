@@ -44,9 +44,11 @@ p.yellow {
 a.cta.yellow {
   background-color: $gyellow;
   color: $gred;
-  font-size: 1em;
 }
-
+a.cta.red {
+  background-color: $gred;
+  color: $gyellow;
+}
 
 .right-lip {
   padding-right: 4em;
